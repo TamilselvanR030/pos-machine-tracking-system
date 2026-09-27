@@ -5,7 +5,7 @@ import QRScanner from '../../components/QRScanner'
 import MachineModal from '../../components/MachineModal'
 import { ScanLine, Package, CheckCircle2, Circle, X, Plus } from 'lucide-react'
 
-const API = 'http://localhost:8000/api'
+const API = 'https://pos-machine-tracking-system-0.onrender.com/api'
 
 function fmt(iso) {
   if (!iso) return '—'
