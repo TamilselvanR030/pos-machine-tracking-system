@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Plus, Trash2, X, User, Hash, Building2, Shield, Users, Lock, KeyRound } from 'lucide-react'
 
-const API = 'http://localhost:8000/api'
+const API = 'https://pos-machine-tracking-system-0.onrender.com/api'
 
 const DOMAINS = [
   { value: 'scan_warehouse', label: 'Scan & Warehouse', badge: 'domain-sw' },
