@@ -4,8 +4,7 @@ import { useAuth } from '../../context/AuthContext'
 import MachineModal from '../../components/MachineModal'
 import { Cpu, CheckCircle2, Circle, Hash } from 'lucide-react'
 
-const API = 'http://localhost:8000/api'
-
+const API = 'https://pos-machine-tracking-system-0.onrender.com/api'
 function fmt(iso) {
   if (!iso) return '—'
   return new Date(iso).toLocaleString('en-IN', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
