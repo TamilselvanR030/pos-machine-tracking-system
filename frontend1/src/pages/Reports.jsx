@@ -8,7 +8,7 @@ import {
   X, Search, Package, Cpu, Key, Truck, CheckCircle2, Circle,
 } from 'lucide-react'
 
-const API = 'http://localhost:8000/api'
+const API = 'https://pos-machine-tracking-system-0.onrender.com/api'
 
 function fmt(iso) {
   if (!iso) return '—'
