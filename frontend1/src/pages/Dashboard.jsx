@@ -8,7 +8,7 @@ import {
 } from 'recharts'
 import { Package, Cpu, Key, Truck, ScanLine, Monitor, TrendingUp, ChevronRight } from 'lucide-react'
 
-const API = 'http://localhost:8000/api'
+const API = 'https://pos-machine-tracking-system-0.onrender.com/api'
 
 // ONE color scheme — all cards same deep navy, icon accent color is subtle
 const CARD_BG = 'linear-gradient(145deg, #0D1B4B 0%, #162466 100%)'
