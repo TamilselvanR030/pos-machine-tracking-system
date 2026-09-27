@@ -8,7 +8,7 @@ import {
   Package, Cpu, Key, Truck, Filter, X
 } from 'lucide-react'
 
-const API = 'http://localhost:8000/api'
+const API = 'https://pos-machine-tracking-system-0.onrender.com/api'
 
 const COLS = [
   { key: 'warehouse_status',     at: 'warehouse_at',       label: 'Warehouse',  icon: Package, domain: 'scan_warehouse', badge: 'badge-amber'  },
